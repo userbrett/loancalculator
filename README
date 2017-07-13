@@ -1,0 +1,62 @@
+Loan Calculator
+===================
+
+This project provides a loan calculator.  The calculator has been run
+on Linux/Unix systems, including Cygwin.
+
+The loan calculator was written in C.  To run the calculator, you will
+need to compile one file.  A makefile is provided, so you should be able
+to run 'make'.
+
+Once compiled, run:
+
+  $ ./loancalc
+
+
+The types of loans it supports are demonstrated by the main menu:
+
+ (N) Non-Amortized         ::  Pay Interest Only - Big Balloon Due at Term
+ (P) Partially Amortized   ::  Pay Some of the Principle - Balloon Due at Term
+ (A) Fully Amortized       ::  Pay All of the Principle and Interest
+ (E) Fully Amortized +     ::  Make Extra Payments Toward the Principle
+
+
+For the purposes of this project:
+
+ (N) "Nonamortized loan" means a loan in which none of the
+ principal balance shall be payable prior to the maturity of the loan.
+
+ (P) "Partially amortized loan" means a loan in which some but not
+ all of the principal balance, together with accrued interest, shall
+ be payable prior to the maturity of the loan.
+
+ (A) "Fully amortized loan" means a loan in which, at inception of
+ the loan, the entire principal balance, together with accrued
+ interest, shall be payable with the scheduled term of the loan in
+ substantially equal installments (excepting the last payment, which
+ may be smaller than a regular scheduled payment).
+
+ (E) "Fully Amortized +" is a "fully amortized loan" where additional
+ funds are paid each month to further reduce the principle.
+
+
+TODO:  Additional types of loans.
+
+ "Open end line of credit" means a loan plan in which the
+ association reasonably contemplates repeated transactions; the
+ association may impose interest  from time to time on the unpaid
+ principal of the loan plan, and the amount of credit that may be
+ extended to the borrower during the term of the loan plan (up to any
+ limit set by the association) is generally made available to the
+ extent that any outstanding principal balance is repaid.
+ 
+ "Reverse annuity mortgage" means an instrument which provides
+ for periodic payments to be made to a homeowner based on accumulated
+ equity.  The payments are made monthly directly by the association,
+ or are made through the purchase  of an annuity from an insurance
+ company.  The loan becomes due on a specified date after disbursement
+ of the entire principal amount of the loan or when a specified event
+ occurs, such as sale of the property or death of the borrower.  The
+ interest rate on this instrument may be fixed, or may be adjusted
+ periodically as provided by this section.
+
